@@ -17,6 +17,6 @@ WORKDIR /var/www/html/
 RUN unzip browny.zip
 RUN cp -rvf browny-v1.0/* .
 RUN rm -rf neogym browny.zip
-EXPOSE  80 
+EXPOSE  80 22
 # Command to run when the container starts
 CMD ["apache2ctl", "-D", "FOREGROUND"]
