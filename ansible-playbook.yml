@@ -3,4 +3,6 @@
   gather_facts: false
   tasks:
   - name: "create new deployment"
-    command: "mkdir /home/ubuntu/akash/"
+    command: kubectl create -f /home/ubuntu/Deployment.yml
+  - name: "create new sercices"
+    command: kubectl create -f /home/ubuntu/Service.yml
