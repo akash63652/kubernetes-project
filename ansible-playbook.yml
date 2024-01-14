@@ -4,4 +4,3 @@
   tasks:
   - name: "create new deployment"
     command: "mkdir /home/ubuntu/akash/"
-~                                       
